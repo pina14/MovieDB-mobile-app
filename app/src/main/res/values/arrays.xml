@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_update_frequency">
+        <item>@string/daily_frequency</item>
+        <item>@string/weekly_frequency</item>
+        <item>@string/three_days_frequency</item>
+    </string-array>
+    <string-array name="entry_values_update_frequency">
+        <item>1</item>
+        <item>7</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="entries_connectivity">
+        <item>@string/wifi_connectivity</item>
+        <item>@string/any_connectivity</item>
+    </string-array>
+    <string-array name="entry_values_connectivity">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_battery_values">
+        <item>@string/never</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+    </string-array>
+    <string-array name="entry_values_battery_values">
+        <item>-1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+</resources>

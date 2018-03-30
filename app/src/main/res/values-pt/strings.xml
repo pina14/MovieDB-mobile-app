@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_movie_list">Lista de Filmes</string>
+    <string name="title_activity_movie">Filme</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="movieRating">Pontuação: </string>
+    <string name="description">Descrição: </string>
+    <string name="action_settings">Créditos</string>
+    <string name="movie_name">Nome: </string>
+    <string name="release_date">Estreia: </string>
+    <string name="site_used_to_get_icons_for_the_app">Site usado para os items da aplicação</string>
+    <string name="api_used_in_the_development_of_the_app">API usada no desenvolvimento da aplicação</string>
+    <string name="application_done_by">Aplicação desenvolvida por:</string>
+    <string name="insert_a_name">Insira um Nome:</string>
+    <string name="search">Procurar</string>
+    <string name="duration">Duração: </string>
+    <string name="now_playing">Em Cartaz</string>
+    <string name="coming_soon">Brevemente</string>
+    <string name="popular_movies">Populares</string>
+    <string name="movie_list_empty">Não há resultados</string>
+
+    <string name="preferences">Preferências</string>
+    <string name="update_frequency_title">Frequência de atualizações</string>
+    <string name="update_frequency_dialog">Frequência de atualizações</string>
+    <string name="weekly_frequency">Semanal</string>
+    <string name="daily_frequency">Diária</string>
+    <string name="three_days_frequency">3 em 3 Dias</string>
+    <string name="data_updates">Atualização de Dados</string>
+    <string name="connectivity_required">Conectividade usada</string>
+    <string name="wifi_connectivity">Apenas Wi-Fi</string>
+    <string name="any_connectivity">Qualquer</string>
+    <string name="notifications">Notificações</string>
+    <string name="receive_notifications">Receber notificações de lançamentos de filmes</string>
+    <string name="power_saving_mode">Modo de poupança de energia</string>
+    <string name="enter_power_saving_mode">Entrar em modo de poupança de energia aos (%):</string>
+    <string name="never">Nunca</string>
+</resources>

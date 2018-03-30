@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search_movie"
+            android:icon="@drawable/ic_magnifier"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/nav_now_playing"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/now_playing" />
+        <item
+            android:id="@+id/nav_coming_soon"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/coming_soon" />
+        <item
+            android:id="@+id/nav_popular_movies"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/popular_movies" />
+    </group>
+
+</menu>

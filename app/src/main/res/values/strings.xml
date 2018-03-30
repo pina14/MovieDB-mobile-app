@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">YAMDA</string>
+
+    <string name="title_activity_movie_list">Movie List</string>
+    <string name="title_activity_movie">Movie</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="movieRating">Rating: </string>
+    <string name="description">Description: </string>
+    <string name="action_settings">Credits</string>
+    <string name="movie_name">Movie Name:</string>
+    <string name="release_date">Release Date:</string>
+    <string name="site_used_to_get_icons_for_the_app">Site used to get icons for the App</string>
+    <string name="api_used_in_the_development_of_the_app">API used in the development of the APP</string>
+    <string name="application_done_by">Application done by:</string>
+    <string name="insert_a_name">Insert a Name:</string>
+    <string name="search">Search</string>
+    <string name="duration">Duration: </string>
+    <string name="now_playing">Now Playing</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="movie_list_empty">No Results</string>
+
+    <string name="preferences">Preferences</string>
+    <string name="update_frequency_title">Update frequency</string>
+    <string name="update_frequency_dialog">Update frequency</string>
+    <string name="weekly_frequency">Weekly</string>
+    <string name="daily_frequency">Daily</string>
+    <string name="three_days_frequency">3 Days</string>
+    <string name="data_updates">Data Updates</string>
+    <string name="connectivity_required">Connectivity required</string>
+    <string name="wifi_connectivity">Only Wi-Fi</string>
+    <string name="any_connectivity">Any</string>
+    <string name="notifications">Notifications</string>
+    <string name="receive_notifications">Receive notification about movie release</string>
+    <string name="power_saving_mode">Power saving mode</string>
+    <string name="enter_power_saving_mode">Enter in power saving mode at:</string>
+    <string name="never">Never</string>
+</resources>

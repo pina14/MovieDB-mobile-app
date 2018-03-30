@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/data_updates">
+        <ListPreference
+            android:key="update_frequency_list"
+            android:title="@string/update_frequency_title"
+            android:dialogTitle="@string/update_frequency_dialog"
+            android:entries="@array/entries_update_frequency"
+            android:entryValues="@array/entry_values_update_frequency"
+            android:defaultValue="7"/>
+        <ListPreference
+            android:key="update_connectivity_list"
+            android:title="@string/connectivity_required"
+            android:dialogTitle="@string/connectivity_required"
+            android:entries="@array/entries_connectivity"
+            android:entryValues="@array/entry_values_connectivity"
+            android:defaultValue="2"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/notifications">
+        <SwitchPreference
+            android:key="receive_notification_switch"
+            android:title="@string/receive_notifications"
+            android:summary="@string/receive_notifications"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/power_saving_mode">
+        <ListPreference
+            android:key="power_saving"
+            android:title="@string/power_saving_mode"
+            android:dialogTitle="Enter in power saving mode at:"
+            android:entries="@array/entries_battery_values"
+            android:entryValues="@array/entry_values_battery_values"
+            android:defaultValue="-1"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
